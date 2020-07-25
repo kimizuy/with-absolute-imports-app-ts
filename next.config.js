@@ -1,4 +1,8 @@
 module.exports = {
+  experimental: {
+    jsconfigPaths: true
+  },
+
   webpack: (config, options) => {
     config.module.rules.push({
       test: /\.(jpe?g|png|svg|gif|ico|webp|jp2)$/,
